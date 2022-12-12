@@ -1,0 +1,293 @@
+/*-----CSS de las fuentes de la pasteleria
+font-family: 'Mrs Saint Delafield', cursive; ------> nombre autor ej. flor sesé
+
+font-family: 'Fleur De Leah', cursive;--------> nombre empresa ej. bake is love
+
+font-family: 'Cinzel', serif;--------------> eslogan ej. panaderia moderna
+
+//patrones de color - barra de navegacion //
+
+// cambiar las variables //
+*/
+
+
+$navbar-light-color: rgb(80, 44, 98);
+$light:$navbar-light-color;
+
+/*----------------------------- Inicio index.html -----------------------------------*/
+body{
+  padding: 0%;
+  margin: 0%;
+  background-color: #e4c5c4;
+
+}
+.offcanvas-body{
+  background-color: #e4c5c4;
+}
+#titulo {
+    font-family: "Fleur De Leah", cursive;
+    color: rgb(212, 193, 29);
+    font-size: 50px;
+}
+  
+#colorbtn {
+    background-color: azure;
+}
+  
+.color {
+    background-color: rgb(80, 44, 98);
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: rgb(212, 193, 29);
+    
+    
+}
+  
+.menu_Interno{
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    color: rgb(212, 193, 29);
+}
+  
+.menuInterno{
+    align-items: flex-start;
+}
+  
+#letter{
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+.logo{
+    width: auto;
+}
+  
+.imagen1er{
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 9%;
+    background-color: #e4c5c4;
+    height: 50vh;
+}
+.titulo_h1{
+    font-family: 'Fleur De Leah', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.h3{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 40px;
+}
+.h3-1{
+  font-family: 'Fleur De Leah', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.imagen1er>p{
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/*----------------------------- Fin index.html -----------------------------------*/
+/*----------------------------- Inicio footer -----------------------------------*/
+.box-redes{
+  display: flex;
+  justify-content: left;
+  height: 100px;
+}
+.redes{
+  display: flex;
+  justify-content: space-between;
+  width: 40px;
+  height: 40px;
+}
+#pie-pagina{
+  height: 30px;
+}
+/*----------------------------- Fin footer --------------------------------------*/
+
+/*----------------------------- Inicio Sobre_mi.html -----------------------------------*/
+.box_presentacion{
+  margin-top: 8%;
+  margin-bottom: 0;
+  display: flex;
+  background-color: #e4c5c4;
+  height: 90vh;
+  
+}
+#saludo{
+  margin-top: 15px;
+  font-family: 'cinzel', serif;
+  
+}
+#sm_titulo{
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 40px;
+  padding-right: 2%;
+  background-color: #e4c5c4;
+}
+.sm_logo{
+  margin-top: 10%;
+  display: flex;
+  width: 450px;
+  justify-content: center;
+  padding-left: 90px;
+}
+
+#sm_parrafo{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  margin-right: 20px;
+}
+/*----------------------------- Fin Sobre_mi.html --------------------------------------*/
+/*------------------------------ Inicio Contacto --------------------------------------*/
+#row{
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  height: 450px;
+  background-color: #e4c5c4;
+}
+
+.title{
+  font-family: 'cinzel', serif;
+  font-size: 1.5rem;
+}
+#form{
+  position: relative;
+  width: 400px;
+  background-color: #e4c5c4;
+  font-family: 'cinzel', serif;
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+  display: block;
+}
+.grupo label, .grupo input, .grupo textarea{
+  overflow: hidden;
+  display: flex;
+  width: 80%;
+  padding-left: .8rem;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 2%;
+
+}
+.boton{
+  margin-left: 40%;
+}
+
+#c-texto{
+  display: flex;
+  text-align: justify;
+  margin-top: 2%;
+  margin-left: 8%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+#c-h1{
+  display: flex;
+  text-align: justify;
+  margin-top: 10%;
+  margin-left: 8%;
+  font-family: 'Cinzel', serif;
+  font-size: 35px;
+}
+#c-label{padding-top: 3%;}
+.form-contact{
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+/*-------------------------------Fin Contacto----------------------------------------*/
+/*-------------------------------   Inicio Productos   ------------------------------*/
+.titulo-pr{
+  margin-top: 8.5%;
+  font-family: 'cinzel', serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: #e4c5c4;
+  height: 100px;
+}
+.linea{
+  background-color: rgb(80, 44, 98);
+  height: 5px;
+  width: 100%;
+  display: block;
+  margin: 3px;
+}
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.galeria img{
+  width: 100%;
+  vertical-align: top;
+  height: 300px;
+  object-fit: cover;
+  transition: transform (0.5s);
+}
+
+.galera>a{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+.galeria a:hover img{
+  filter: blur(2px);
+  transform: rotate(10deg) scale(1.3);
+}
+
+.light-box{
+  position: fixed;
+  top: 5%;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  transition: transform .3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  object-fit: cover;
+}
+.light-box img{
+  width: 75vw;
+  max-height: 85vh;
+  object-fit: cover;
+}
+.light-box:target{
+  transform: scale(1);
+  object-fit: cover;
+
+}
+.close{
+  display: block;
+  position: absolute;
+  top: 75px;
+  right: 40px;
+  background-color: #851919;
+  color: white;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+
+/*-------------------------------    Fin Productos    -------------------------------*/
+
+@import "../libs/bootstrap/scss/bootstrap.scss"

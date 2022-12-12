@@ -1,0 +1,76 @@
+/*-----CSS de las fuentes de la pasteleria
+font-family: 'Mrs Saint Delafield', cursive; ------> nombre autor ej. flor sesé
+
+font-family: 'Fleur De Leah', cursive;--------> nombre empresa ej. bake is love
+
+font-family: 'Cinzel', serif;--------------> eslogan ej. panaderia moderna
+*/
+
+
+
+
+body{
+    background-color: bisque;
+}
+.row >h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+#arriba{
+    background-color: rgb(80, 44, 98);
+}
+#logo{
+    font-family: 'Fleur De Leah', cursive;
+    color:rgb(212, 193, 29);
+    font-size: 50px;
+}
+
+#letter{
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    color:rgb(212, 193, 29)
+}
+#carrusel{
+    font-family: 'Cinzel', serif;
+    color:rgb(255, 255, 255)
+
+}
+.parrafo{
+    font-family: 'Cinzel', serif;
+    color: rgb(36,73,46);
+    font-size: 1.8rem;
+    margin: auto;
+    padding-top: 30px;
+    
+    background-color: bisque;
+    height: 300px;
+}
+
+#contenedor_1{
+    display: flex;
+    justify-content: space-between;
+}
+#autorfrase{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 45px;
+    text-align: end;   
+}
+
+/*.imagen_fija{
+    background-image: url(https://images.unsplash.com/photo-1643487237895-ed2e3d2eb6ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 400px;
+    width: 100%;
+    padding: 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    text-align: center;
+}*/
+
+.imagen >h1{
+    width: 100%;
+    
+}
